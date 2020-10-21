@@ -24,17 +24,11 @@ Start-Sleep -Seconds 5
 #import from excel doc, add parameters/headers
 $imported1 = ($x = Import-Excel -Path .\test.xlsx  -HeaderName 'KEYWORD', 'BOOK', 'PAGE', 'DEFINITION') 
 
-#Write-Progress -Activity "Importing Data" -Id 1 -Status "Processing $i/$($imported.count) imports" -PercentComplete ($i/ $imported.count *100)
-
-
 #sort first column, filter duplicates
 $sorted1 = $imported1 | Sort-Object -Property @{Expression = "KEYWORD"} | Get-Unique -AsString 
 
-
 #produce new excel doc
 $sorted1 | Export-excel -Path .\output1.xlsx 
-
-# 512_Raw_combined
 
 
 #second pass
@@ -70,8 +64,6 @@ $sorted3 | Export-excel -Path .\output3.xlsx
 
 
 
-
-
 #final pass
 Write-ProgressHelper -Message 'Finishing Up' -StepNumber ($stepCounter++)
 
@@ -96,4 +88,4 @@ rm .\output3.xlsx
 
 #NOTES# 
 # will not retain text formats at this time
-#ADD help file data
+
