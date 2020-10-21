@@ -16,4 +16,4 @@ Powershell Script for combining multiple Excel documents and removing duplicates
 
 
 ## Notes
-Currently this script will not retain text formating i.e. Bolds, font size, font, etc.. 
+Currently this script will not retain text formating i.e. Bolds, font size, font type, etc.. 
