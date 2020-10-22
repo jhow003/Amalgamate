@@ -1,6 +1,6 @@
 # Amalgamate
 Powershell Script for combining multiple Excel documents and removing duplicates
->Dedicated to all Past, Present, and Future SANS students. 
+>Dedicated to all Past, Present, and Future SANS students. Specifically designed to ease your indexing needs.
 
 
 ## Required Module
@@ -22,5 +22,4 @@ Powershell Script for combining multiple Excel documents and removing duplicates
 ## Note
 Currently this script will not retain text formating i.e. Bolds, font size, font type, etc.. 
 
-#### Back story behind creation ####
-I created this script out of necessity, simply put I needed sleep! I was taking multiple SANS courses concurrently and sharing index’s with classmates. (index’s = notes, for those not familiar with SANS courses) This made for long nights of combining and removing duplicate entries, I needed a way to automate!!! So, Amalgamate was born. Now what once took numerous hours can be accomplished in minutes or less. 
+
