@@ -2,6 +2,10 @@
 Powershell Script for combining multiple Excel documents and removing duplicates
 >Dedicated to all Past, Present, and Future SANS students. Specifically designed to ease your indexing needs.
 
+| **Before**      | **After**      |
+|------------|-------------|
+| <img src="https://github.com/jhow003/Amalgamate/blob/main/Before.jpg" width="500"> | <img src="https://github.com/jhow003/Amalgamate/blob/main/After.jpg" width="500"> |
+
 
 ## Required Module
 - Import-Excel
@@ -17,11 +21,6 @@ Powershell Script for combining multiple Excel documents and removing duplicates
 - Sit back, relax, and watch the status bar
 - Once complete your new Excel doc will be open and be saved within the folder you created above named `FinalMM-dd-yyyy.T.HH-mm-ss.xlsx`
 - Enjoy
-
-
-| **Before**      | **After**      |
-|------------|-------------|
-| <img src="https://github.com/jhow003/Amalgamate/blob/main/Before.jpg" width="500"> | <img src="https://github.com/jhow003/Amalgamate/blob/main/After.jpg" width="500"> |
 
 
 ## Note
